@@ -56,3 +56,5 @@ class OpeningHours(models.Model):
     
     class Meta:
         unique_together = ('location', 'day')
+
+
